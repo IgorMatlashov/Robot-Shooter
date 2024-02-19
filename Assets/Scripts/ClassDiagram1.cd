@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PlayerAnimationData" Collapsed="true">
+    <Position X="38" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\Data\Animations\PlayerAnimationData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapsuleColliderData" Collapsed="true">
+    <Position X="38" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAQAgAACABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\Data\Colliders\CapsuleColliderData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerLayerData" Collapsed="true">
+    <Position X="36.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Assets\Scripts\Characters\Data\Layer\PlayerLayerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerSO" Collapsed="true">
+    <Position X="39.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\Data\ScriptableObjects\PlayerSO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerAirborneData" Collapsed="true">
+    <Position X="36.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\Data\States\Airborne\PlayerAirborneData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrouchData" Collapsed="true">
+    <Position X="39.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\Data\States\Grounded\Moving\CrouchData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RunData" Collapsed="true">
+    <Position X="38" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\Data\States\Grounded\Moving\RunData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SprintData" Collapsed="true">
+    <Position X="41.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\Data\States\Grounded\Moving\SprintData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WalkData" Collapsed="true">
+    <Position X="34.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\Data\States\Grounded\Moving\WalkData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerGroundedData" Collapsed="true">
+    <Position X="39.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAQAgAAEABAAEAAAAAAAAAAAgAIAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\Data\States\Grounded\PlayerGroundedData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerIdleData" Collapsed="true">
+    <Position X="41.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\Data\States\Grounded\PlayerIdleData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerStopData" Collapsed="true">
+    <Position X="34.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAIAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\Data\States\Grounded\Stopping\PlayerStopData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerRotationData" Collapsed="true">
+    <Position X="38" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\Data\States\PlayerRotationData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerStateReusableData" Collapsed="true">
+    <Position X="41.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQAAAAGgAAAAgACAAAAAAAAhAQAAEAAAAgAAgAAQ=</HashCode>
+      <FileName>Assets\Scripts\Characters\Data\States\PlayerStateReusableData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="34.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAABCiAAAIABAAAAAAAAEAAAYIAAQACAAgAACEA=</HashCode>
+      <FileName>Assets\Scripts\Characters\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMovementStateMachine">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAIAAAABAAAAAAAAAAAgAgAAABQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\PlayerMovementStateMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerAirborneState">
+    <Position X="31" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\Airborne\PlayerAirborneState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerFallState">
+    <Position X="29.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\Airborne\States\PlayerFallState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerJumpState">
+    <Position X="32" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\Airborne\States\PlayerJumpState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerLandingState">
+    <Position X="19" Y="7.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\Grounded\Landing States\PlayerLandingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerHardLandingState">
+    <Position X="17" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\Grounded\Landing States\States\PlayerHardLandingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerLightLandingState">
+    <Position X="19.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\Grounded\Landing States\States\PlayerLightLandingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerRollState">
+    <Position X="21.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\Grounded\Landing States\States\PlayerRollState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMovingState">
+    <Position X="9" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\Grounded\Moving States\PlayerMovingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerStoppingState">
+    <Position X="25.75" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\Grounded\StoppingStates\PlayerStoppingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMovementState">
+    <Position X="23" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEIREGAAICAAgAAAAgAAQAQAAQgAYAISBIADAAAwAQ=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\PlayerMovementState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StateMachine">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAECAAAAABAAAIAAAAQAAAAAAAIAAQAAABAAAQAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\StateMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraZoom" Collapsed="true">
+    <Position X="36.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAEkAAAAAAAAAAAEAAAAAQQAAAoAFA=</HashCode>
+      <FileName>Assets\Scripts\Characters\Utilities\Cameras\CameraZoom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerInput" Collapsed="true">
+    <Position X="34.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAIAAAAAAAAiEA=</HashCode>
+      <FileName>Assets\Scripts\Characters\Utilities\Inputs\PlayerInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="@PlayerController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAAAQACAgABACAAAEGhABAAABAGAEAEAgBEBQAgA=</HashCode>
+      <FileName>Assets\Scripts\InputController\PlayerController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlayerHardStopState">
+    <Position X="23.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\Grounded\StoppingStates\States\PlayerHardStopState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerLightStopState">
+    <Position X="28.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\Grounded\StoppingStates\States\PlayerLightStopState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMediumStopState">
+    <Position X="26" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\Grounded\StoppingStates\States\PlayerMediumStopState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerCrouchingState">
+    <Position X="5.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAIABAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\Grounded\Moving States\States\PlayerCrouchingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerRunningState">
+    <Position X="10.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAIABAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\Grounded\Moving States\States\PlayerRunningState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerSprintingState">
+    <Position X="8.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAIABAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\Grounded\Moving States\States\PlayerSprintingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerWalkingState">
+    <Position X="12.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAIABAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\Grounded\Moving States\States\PlayerWalkingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerGroundedState">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAAAAAAAAACAACgAAQABQCAQCAAIIAjAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\Grounded\PlayerGroundedState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerIdlingState">
+    <Position X="14.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAIABAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\Grounded\PlayerIdlingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="IState" Collapsed="true">
+    <Position X="34.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAECAAAAAAAAAAAAAAQAQAAAAAIAAQAIABAAAQAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\IState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
