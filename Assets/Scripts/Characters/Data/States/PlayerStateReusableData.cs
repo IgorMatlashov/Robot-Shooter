@@ -21,13 +21,14 @@ public class PlayerStateReusableData
     private Vector3 dampedTargetRotationCurrentVelocity;
     private Vector3 dampedTargetRotationPassedTime;
 
-    public ref Vector3 CurrentTargetRotation
+    public ref Vector3 CurrentCameraRotation
     {
         get
         {
             return ref currentCameraRotation;
         }
     }
+
     public ref Vector3 TimeToReachTargetRotation
     {
         get

@@ -144,8 +144,6 @@ public class PlayerMovementState : IState
         return groundNormal;
     }
 
-    protected Vector4 Get 
-
     #endregion
 
 

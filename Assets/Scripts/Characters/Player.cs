@@ -4,7 +4,7 @@ using UnityEngine;
 [RequireComponent (typeof(PlayerResizableCapsuleCollider))]
 public class Player : MonoBehaviour
 {
-    [field: Header("References PLayer SO")]
+    [field: Header("References Player SO")]
     [field: SerializeField] public PlayerSO PlayerSO { get; private set; }
 
     [field: Header("Collisions Layer Ground")]

@@ -94,7 +94,7 @@
   <Class Name="PlayerStateReusableData" Collapsed="true">
     <Position X="41.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>EAAAQAAAAGgAAAAgACAAAAAAAAhAQAAEAAAAgAAgAAQ=</HashCode>
+      <HashCode>EAAAQBAAAEgQAAAAACIAAAAAAAhAQAAEAAAAgAAgAAQ=</HashCode>
       <FileName>Assets\Scripts\Characters\Data\States\PlayerStateReusableData.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -174,14 +174,6 @@
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\Grounded\StoppingStates\PlayerStoppingState.cs</FileName>
     </TypeIdentifier>
-  </Class>
-  <Class Name="PlayerMovementState">
-    <Position X="23" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAEIREGAAICAAgAAAAgAAQAQAAQgAYAISBIADAAAwAQ=</HashCode>
-      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\PlayerMovementState.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="StateMachine">
     <Position X="0.5" Y="6.5" Width="1.5" />
@@ -264,7 +256,7 @@
   <Class Name="PlayerGroundedState">
     <Position X="16.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAUAAAAAAAAAAAAACAACgAAQABQCAQCAAIIAjAAAAAA=</HashCode>
+      <HashCode>AAUAAAAAAAAAAAAACAACgAAQAAQCAQCAAIIAjAAAAAA=</HashCode>
       <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\Grounded\PlayerGroundedState.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -274,6 +266,14 @@
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAIABAAAAAA=</HashCode>
       <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\Grounded\PlayerIdlingState.cs</FileName>
     </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMovementState">
+    <Position X="23" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEIAEGAAICAAAAAAAAAAQAQEJQAAYBISCIADAAAQAQ=</HashCode>
+      <FileName>Assets\Scripts\Characters\PlayerBaseStateMachine\PlayerStateMachine\States\PlayerMovementState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Interface Name="IState" Collapsed="true">
     <Position X="34.5" Y="5.75" Width="1.5" />
